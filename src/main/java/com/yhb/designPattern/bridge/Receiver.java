@@ -1,6 +1,4 @@
-package com.yhb.bridge;
-
-import java.util.Hashtable;
+package com.yhb.designPattern.bridge;
 
 /**
  * Created by yanghongbo on 2018/8/19.

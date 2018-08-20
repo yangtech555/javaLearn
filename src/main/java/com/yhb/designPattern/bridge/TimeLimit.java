@@ -1,7 +1,6 @@
-package com.yhb.bridge;
+package com.yhb.designPattern.bridge;
 
 import java.util.Calendar;
-import java.util.Date;
 
 /**
  * Created by yanghongbo on 2018/8/20.

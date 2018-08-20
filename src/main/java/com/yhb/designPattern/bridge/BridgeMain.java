@@ -1,4 +1,4 @@
-package com.yhb.bridge;
+package com.yhb.designPattern.bridge;
 
 /**
  * Created by yanghongbo on 2018/8/20.
@@ -6,7 +6,7 @@ package com.yhb.bridge;
 public class BridgeMain {
 
     public static void main(String[] args) {
-
+        //参数
         Object param = new Object();
 
         Receiver wxTemplateMessageForActivity = new WeixinTemplateMessage(new ActivityMessage(), null);

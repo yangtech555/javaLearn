@@ -1,4 +1,4 @@
-package com.yhb.bridge;
+package com.yhb.designPattern.bridge;
 
 import java.util.Random;
 

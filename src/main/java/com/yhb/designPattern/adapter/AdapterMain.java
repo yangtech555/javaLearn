@@ -1,4 +1,4 @@
-package com.yhb.adapter;
+package com.yhb.designPattern.adapter;
 
 /**
  * Created by yanghongbo on 2018/8/19.

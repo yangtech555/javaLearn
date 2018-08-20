@@ -1,4 +1,4 @@
-package com.yhb.bridge;
+package com.yhb.designPattern.bridge;
 
 /**
  * Created by yanghongbo on 2018/8/19.
