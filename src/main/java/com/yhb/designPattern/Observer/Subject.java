@@ -1,4 +1,4 @@
-package com.yhb.designPattern.Observer;
+package com.yhb.designPattern.observer;
 
 import java.util.ArrayList;
 import java.util.List;

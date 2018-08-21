@@ -1,4 +1,4 @@
-package com.yhb.designPattern.Iterator;
+package com.yhb.designPattern.iterator;
 
 /**
  * Created by yanghongbo on 2018/8/19.
