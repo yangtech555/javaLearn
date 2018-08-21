@@ -16,18 +16,19 @@ public abstract class Subject {
     public void setSubjectState(String subjectState) {
         this.subjectState = subjectState;
     }
-    private static List<Observer> observers = new ArrayList<>();
 
-    public static void attach(Observer observer) {
+    private List<Observer> observers = new ArrayList<>();
+
+    public void attach(Observer observer) {
         observers.add(observer);
     }
 
-    public static void detach(Observer observer) {
+    public void detach(Observer observer) {
         observers.remove(observer);
     }
 
     public void notifyObservers() {
-        this.subjectState="吃饭啦";
+        this.subjectState = "吃饭啦";
         for (Observer item :
                 observers) {
             item.update(this);
