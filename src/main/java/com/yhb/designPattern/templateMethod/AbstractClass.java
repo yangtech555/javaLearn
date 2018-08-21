@@ -10,6 +10,7 @@ public abstract class AbstractClass {
     public abstract void methodB();
 
     public void methodC(){
+
         System.out.println("父类的methodC");
     }
 
