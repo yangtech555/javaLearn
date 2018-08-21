@@ -10,8 +10,8 @@ public class ObserverMain {
         Observer observer = new ConcereObserver("小明");
         Observer observer1 = new ConcereObserver("小红");
 
-        subject.attach(observer);
-        subject.attach(observer1);
+        Subject.attach(observer);
+        Subject.attach(observer1);
 
         subject.notifyObservers();
     }
