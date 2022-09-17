@@ -14,7 +14,7 @@ public class ConcreteBuilder2 extends Builder {
 
     @Override
     public void buildPartB() {
-        product.add("ConcreteBuilder2创建的部件B");
+        product.add("ConcreteBuilder2创建的部件B2222");
     }
 
     @Override
